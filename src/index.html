@@ -14,18 +14,151 @@
       crossorigin="anonymous"
     />
   </head>
+
   <body>
     <!-- Write your HTML code here, you can delete everything withing the body tags -->
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./assets/img/rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+
+    <h1 class="casino-title text-center mt-4">♠ Random Poker ♥</h1>
+
+    <div class="container mt-4">
+      <div class="text-center mb-4">
+        <button id="generateBtn" class="btn btn-warning position-center">
+          New Card
+        </button>
+      </div>
+
+      <div class="row justify-content-center g-4">
+        <!-- CARD 1 -->
+        <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
+          <div
+            class="poker-card card-1 border rounded bg-white p-2"
+            style="width: 260px; height: 360px"
+          >
+            <!-- Top -->
+            <div class="row" style="height: 25%">
+              <div class="col-2 d-flex align-items-start justify-content-start">
+                <div class="text-center">
+                  <div class="rankTop">3</div>
+                  <div class="suitTop">♥</div>
+                </div>
+              </div>
+              <div class="col-10"></div>
+            </div>
+
+            <!-- Center -->
+            <div class="row" style="height: 50%">
+              <div class="col-5"></div>
+              <div
+                class="col-2 d-flex align-items-center justify-content-center"
+              >
+                <div
+                  class="rankCenter"
+                  style="font-size: 90px; font-weight: 700"
+                >
+                  3
+                </div>
+              </div>
+              <div class="col-5"></div>
+            </div>
+
+            <!-- Bottom -->
+            <div class="row" style="height: 25%">
+              <div class="col-10"></div>
+              <div class="col-2 d-flex align-items-end justify-content-end">
+                <div class="text-center" style="transform: rotate(180deg)">
+                  <div class="rankBottom">3</div>
+                  <div class="suitBottom">♥</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
+          <div
+            class="poker-card card-2 border rounded bg-white p-2"
+            style="width: 260px; height: 360px"
+          >
+            <div class="row" style="height: 25%">
+              <div class="col-2 d-flex align-items-start justify-content-start">
+                <div class="text-center">
+                  <div class="rankTop">7</div>
+                  <div class="suitTop">♠</div>
+                </div>
+              </div>
+              <div class="col-10"></div>
+            </div>
+
+            <div class="row" style="height: 50%">
+              <div class="col-5"></div>
+              <div
+                class="col-2 d-flex align-items-center justify-content-center"
+              >
+                <div
+                  class="rankCenter"
+                  style="font-size: 90px; font-weight: 700"
+                >
+                  7
+                </div>
+              </div>
+              <div class="col-5"></div>
+            </div>
+
+            <div class="row" style="height: 25%">
+              <div class="col-10"></div>
+              <div class="col-2 d-flex align-items-end justify-content-end">
+                <div class="text-center" style="transform: rotate(180deg)">
+                  <div class="rankBottom">7</div>
+                  <div class="suitBottom">♠</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
+          <div
+            class="poker-card card-3 border rounded bg-white p-2"
+            style="width: 260px; height: 360px"
+          >
+            <div class="row" style="height: 25%">
+              <div class="col-2 d-flex align-items-start justify-content-start">
+                <div class="text-center">
+                  <div class="rankTop">K</div>
+                  <div class="suitTop">♦</div>
+                </div>
+              </div>
+              <div class="col-10"></div>
+            </div>
+
+            <div class="row" style="height: 50%">
+              <div class="col-5"></div>
+              <div
+                class="col-2 d-flex align-items-center justify-content-center"
+              >
+                <div
+                  class="rankCenter"
+                  style="font-size: 90px; font-weight: 700"
+                >
+                  K
+                </div>
+              </div>
+              <div class="col-5"></div>
+            </div>
+
+            <div class="row" style="height: 25%">
+              <div class="col-10"></div>
+              <div class="col-2 d-flex align-items-end justify-content-end">
+                <div class="text-center" style="transform: rotate(180deg)">
+                  <div class="rankBottom">K</div>
+                  <div class="suitBottom">♦</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
